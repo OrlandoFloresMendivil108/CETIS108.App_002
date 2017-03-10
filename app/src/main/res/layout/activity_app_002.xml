@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_app_002"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mx.edu.cetis108.cetis108app_002.App_002">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="29dp"
+        android:id="@+id/txt"
+        android:layout_below="@+id/suma"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:text="RESULTADO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/et1"
+        android:layout_marginTop="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="MULT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mult"
+        android:elevation="0dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textColorLink="@android:color/holo_blue_dark"
+        android:background="@color/colorPrimaryDark"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:layout_marginTop="94dp"
+        android:layout_below="@+id/et2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="SUMAR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/suma"
+        android:elevation="0dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@color/colorPrimaryDark"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:layout_below="@+id/mult"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="DIVIDIR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dividir"
+        android:elevation="0dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@android:color/holo_blue_light"
+        android:layout_alignBaseline="@+id/mult"
+        android:layout_alignBottom="@+id/mult"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="RESTAR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resta"
+        android:elevation="0dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_above="@+id/txt"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_marginTop="52dp"
+        android:id="@+id/et2"
+        android:layout_below="@+id/et1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
